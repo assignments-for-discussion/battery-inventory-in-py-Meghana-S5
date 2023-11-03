@@ -1,5 +1,8 @@
 def count_batteries_by_health(present_capacities):
   SOH=100*present_capacities//120
+  health_count=0
+  exchange_count=0
+  fail_count=0
   for i in present_capacities:
     if SOH>=80 and SOH<=100:
       health_count+=1
