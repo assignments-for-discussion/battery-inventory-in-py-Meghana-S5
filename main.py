@@ -1,5 +1,6 @@
 
 def count_batteries_by_health(present_capacities):
+  if present_capacities<
   return {
     "healthy": 0,
     "exchange": 0,
